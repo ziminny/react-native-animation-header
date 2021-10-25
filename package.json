@@ -1,0 +1,19 @@
+{
+  "name": "react-native-animation-header",
+  "version": "0.0.1",
+  "description": "React Native animation header",
+  "main": "./dist",
+  "repository": "https://github.com/ziminny/react-native-animation-header",
+  "author": "Vagner Oliveira <ziminny@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.32",
+    "@types/react-native": "^0.66.0",
+    "react": "^17.0.2",
+    "react-native": "^0.66.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "react-native-iphone-x-helper": "^1.3.1"
+  }
+}
