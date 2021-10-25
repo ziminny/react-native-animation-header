@@ -2,13 +2,15 @@
 <br>
 <br>
 
-![Alt Text](./readme-gif/example.gif)
-
-<br>
  
  ```
    yarn add react-native-animation-header 
  ```
+
+![Alt Text](./readme-gif/example.gif)
+
+<br>
+
 
 ## Example
 
