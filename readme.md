@@ -17,6 +17,7 @@
 ```typescript 
 
 import RNAnimationHeader ,{ AnimationHeaderRef } from "react-native-animation-header"
+import Text from "react-native"
 
 export function App() {
 
@@ -27,10 +28,9 @@ export function App() {
          <RNAnimationHeader
             title="Hello World"
             ref={animationHeaderRef} 
-            showsVerticalScrollIndicator={false}
-            scrollEventThrottle={16}
+            limit={60} // limit to toggle default 250
             changeStatusBarColor={false} // change statusBar color toggle set true if change default 55
-            //   limit={100} // limit to toggle default 250
+             
             //   leftElement={ // left element
             //      <MaterialIcons name="keyboard-arrow-left" size={24} color="black" />
             //   }
@@ -57,8 +57,9 @@ export function App() {
                     animationHeaderRef.current.getScrollPosition(event)
                 }
             }}
+            contentContainerStyle={{ height: 1500 , alignItems:'center' , paddingTop:100 }}
          >
-            ...
+             <Text>Scroll View</Text>
          </ScrollView>
         </>
     )
