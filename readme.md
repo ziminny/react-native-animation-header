@@ -6,6 +6,9 @@
 
 <br>
  
+ ```
+   yarn add react-native-animation-header 
+ ```
 
 ## Example
 
